@@ -3,6 +3,13 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import "./FeaturesPage.css"; // Import additional CSS
+import dumbbellIcon from "../assets/icons/icons8-dumbbell-48.png";
+import nutritionIcon from "../assets/icons/icons8-nutrition-48.png";
+import bmrIcon from "../assets/icons/bmr-icon.png";
+import accountIcon from "../assets/icons/account-icon.png";
+import mealIcon from "../assets/icons/meal-icon.png";
+import waterIcon from "../assets/icons/water-icon.png";
+
 
 const FeatureCard = ({ title, description, link, icon }) => {
   return (
@@ -26,42 +33,42 @@ const FeaturesPage = () => {
       description:
         "Our workout database is a comprehensive resource for anyone looking to improve their fitness. Find the perfect routine to target your specific goals.",
       link: "/pages/workouts",
-      icon: "/assets/icons/workout-icon.png", // Path to local icon
+      icon: dumbbellIcon,
     },
     {
       title: "Nutrition Checker",
       description:
         "With Nutrition Checker, you can quickly and easily see the nutritional value of any food, including calories, fat, protein, carbohydrates.",
       link: "/pages/nutrition-checker",
-      icon: "/assets/icons/nutrition-icon.png",
+      icon: nutritionIcon,
     },
     {
       title: "BMR Calculator",
       description:
         "Calculate your Basal Metabolic Rate (BMR) to determine your daily calorie needs. Get insights into your metabolism.",
       link: "/pages/bmr-calculator",
-      icon: "/assets/icons/bmr-icon.png",
+      icon: bmrIcon,
     },
     {
       title: "Create Account",
       description:
         "Create a personalized account to access additional features, save your progress, and customize your experience.",
       link: "/pages/register",
-      icon: "/assets/icons/account-icon.png",
+      icon: accountIcon,
     },
     {
       title: "Meal Planner",
       description:
         "The Meal Planner is a feature that helps you plan your meals for the Day. The Meal Planner is a great way to save time and money, and to eat healthier!",
       link: "/pages/profile/meal-plan",
-      icon: "/assets/icons/meal-icon.png",
+      icon: mealIcon,
     },
     {
       title: "Water Intake Log",
       description:
         "Feature that helps you track how much water you drink each day. You can enter the amount of water you drink each time you take a drink.",
       link: "/pages/profile/meal-plan",
-      icon: "/assets/icons/water-icon.png",
+      icon: waterIcon,
     },
   ];
 

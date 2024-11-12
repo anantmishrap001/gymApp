@@ -43,10 +43,9 @@ const HomeContent = () => {
         <Col md={4}>
           <Card className="info-card mb-4">
             <Card.Body>
-              <Card.Title className="card-title">Stay Motivated.</Card.Title>
+              <Card.Title className="card-title">24/7 Personal Chat Bot</Card.Title>
               <Card.Text>
-                Join the World's Largest Fitness Community for advice, tips, and
-                support 24/7.
+                Join in for any fitness related queries. Anytime and anywhere.
               </Card.Text>
             </Card.Body>
           </Card>
